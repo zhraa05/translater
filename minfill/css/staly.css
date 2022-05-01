@@ -95,7 +95,27 @@
            color: azure;
            font-size: 17px;
        }
-    
+      @media screen and (max-width: 500px) and (min-width: 350px){
+.container{
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+}
+ .control .icons {
+    width: 23%;
+}
+.control {
+    padding: 12px 0px;
+}
+.control, li, .icons, .icons i {
+     display: inline;
+       justify-content: stretch;
+    }
+
+      }
+          
+   
+
 
 
 
