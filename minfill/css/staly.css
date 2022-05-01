@@ -1,0 +1,115 @@
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Permanent+Marker&display=swap');
+        *{
+        margin: 0;
+        padding: 0;box-sizing: border-box;
+        font-family: 'Amiri', serif;
+         text-transform: capitalize !important;
+        }
+        body{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        min-height: 100vh !important;
+        background: #530068 !important;
+        text-transform: capitalize;
+
+        }
+        .container{
+            width: 690px;
+            background-color: azure;
+            border-radius: 7px;
+            padding: 30px;
+        }
+        .wrapper{
+            border-radius: 5px;
+            border: 1px solid #bbb;
+        }
+        .wrapper .text-input {
+            display: flex;
+            border-bottom: 1px solid #bbb;
+        }
+        .text-input .to-text{
+            border-left: 1px solid #bbb;
+            border-radius: 1px;
+        }
+        .text-input textarea{
+        height: 250px;
+        width: 250px;
+        border: none;
+        outline: none;
+        resize: none;
+        background: none;
+        border-radius: 5px ;
+        font-size: 18px;
+        padding: 10px 15px;
+        }
+        .control , li , .icons, .icons i{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          
+        }
+        .control{
+              padding: 12px 15px ;
+                list-style: none;
+        }
+        .control .row.from .icons{
+            border-right: 1px solid #bbb;
+            padding-right: 15px;
+        }
+        .control .row.to .icons{
+            border-left: 1px solid #bbb;
+            padding-left: 15px;
+        }
+         .control .icons{
+         width: 38%;
+
+     }
+        .control .icons i{
+            color: #9f9f9f;
+            font-size: 14px;
+            cursor: pointer;
+            width: 50px;
+          justify-content: center;
+        }
+        .control .row select{
+            border: none;
+            outline: none;
+            background: none;
+            font-size: 18px;
+        }
+        .control .exchange{
+            color: #9f9f9f;
+            font-size: 16px;
+            cursor: pointer;
+        }
+       .container button{
+           width: 100%;
+           padding: 14px;
+           margin-top: 20px;
+           outline: none;
+           border: none;
+           cursor: pointer;
+           background: #73018f;
+           border-radius: 5px;
+           color: azure;
+           font-size: 17px;
+       }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
